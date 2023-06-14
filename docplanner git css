@@ -1,0 +1,1136 @@
+html {
+    display: block;
+    color: -internal-root-color;
+}
+body {
+    display: block;
+    margin: 0px;
+}
+
+/*header section*/
+header{
+   height: 70px;
+    background-color:white ;      
+    position: sticky;
+   top: 0;
+
+    padding: 5px;   
+     box-shadow: 2px 0px 16px -4px #888888;
+      
+}
+header .head-part{
+    display: flex;
+    justify-content: space-between;
+}
+/*header .docpalanner{
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}*/
+.logo img{
+    width: 404px;
+    height: 30px;
+    margin-top: 18px;
+    padding-left: 113px;
+}
+.head-part .menu-head{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 196px;
+    padding-top: 31px;
+  
+   
+}
+.head-part .menu-head .menu-nav{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 2px;
+    padding-top: -4px;
+}
+.head-part .menu-head .about-us{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(0, 179, 155);
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+   
+}
+.head-part .menu-head .about-us a:hover{
+    color: rgb(0, 179, 155);
+    cursor: pointer;
+}
+.head-part .menu-head .about-us a{
+    text-decoration: none;
+}
+.head-part .menu-head .about-us a:link{
+    color: rgb(0, 179, 155);
+    
+}
+.head-part .menu-head .about-us a:visited{
+    color: rgb(0, 179, 155);
+    
+}
+.head-part .menu-head .about-us a:active{
+    color: rgb(0, 179, 155);
+    
+}
+
+.head-part .menu-head .menu-nav .career{
+    font-size: 15px;
+    font-weight: bold;
+    color:rgb(194, 199, 199);
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    padding-left: 15px;
+   
+    
+}
+.head-part .menu-head .menu-nav .career a:hover{
+    color: rgb(0, 179, 155);
+    cursor: pointer;
+}
+.head-part .menu-head .menu-nav .career a{
+    text-decoration: none;
+    color: rgb(194, 199, 199);
+}
+.head-part .menu-head .menu-nav .career a:link{
+    color: rgb(194, 199, 199);
+    
+}
+.head-part .menu-head .menu-nav .career a:active{
+    color: rgb(194, 199, 199);
+    
+}
+.head-part .menu-head .departement{
+    font-size: 15px;
+    font-weight: bold;
+    color:rgb(194, 199, 199);
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    padding-left: 15px;
+   
+    
+}
+
+
+.head-part .menu-head .departement a:hover{
+    color: rgb(0, 179, 155) !important;
+    cursor: pointer;
+}
+
+.head-part .menu-head .departement a{
+    text-decoration: none;
+    color: rgb(194, 199, 199);
+}
+.head-part .menu-head .departement a:link{
+    color: rgb(194, 199, 199);
+    
+}
+.head-part .menu-head .departement a:active{
+    color: rgb(194, 199, 199);
+    
+}
+.head-part .menu-head .departement {
+    position: relative;
+    display: inline-block;
+    
+
+  }
+  .head-part .menu-head .departement .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 203px;
+    list-style: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 14px;
+    Font-weight: 400;
+    color: rgb(194, 199, 199);
+    width: 245px;
+    
+  } 
+  .head-part .menu-head .departement .dropdown-content ul {
+    list-style:none ;
+  }
+  .head-part .menu-head .departement .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-decoration: none;
+  }
+  .head-part .menu-head .departement .dropdown-content a:hover
+   {
+       background-color: #f1f1f1
+
+    }
+.head-part .menu-head .departement:hover .dropdown-content {
+        display: block;
+        
+      }
+  
+/*Main  section info docplanner*/
+
+.info-docpalanner{
+   display: inline-block;
+
+}
+.info-docpalanner img{
+    margin-left:640px;
+    margin-top: 26px;
+ 
+ }
+ .info-docpalanner h1{
+    margin-left: 335px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 34px;
+    Font-weight: 300;
+    color: rgb(0, 179, 155);
+ 
+ }
+ .healthcare-description{
+     display: flex;
+     justify-content: center;
+     margin-top: -8px;
+ }
+ .healthcare-description p{
+   flex-wrap: wrap;
+   width: 400px;
+   padding: 20px;
+}
+
+.healthcare-description .patients{
+  
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 16px;
+    Font-weight: 400;
+    Line-height: 28px;
+    color: rgb(116, 116, 116);
+    padding-left: 170px;
+}
+.healthcare-description .doctors{
+  
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 16px;
+    Font-weight: 400;
+    Line-height: 28px;
+    color: rgb(116, 116, 116);
+}
+
+/*Main section patient doctor*/
+
+.visit{
+    display: flex;
+    justify-content: center;
+    padding-top: 31px;
+}
+.visit .For-patients .box-vert{
+    background-color:#00CCB1;
+    border-radius: 15px;
+    width: 479px;
+    height: 392px;
+    padding-left: 40px;
+    padding-right: -40px;
+    overflow: hidden;
+
+}
+.visit .For-patients .box-vert h6{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 14px;
+    Font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    padding-top: 25px;
+    padding-left: 40px;
+}
+.visit .For-patients .box-vert p{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 26px;
+    Font-weight: 300;
+    Line-height: 33.8px;
+    color: rgb(255, 255, 255);
+    padding-left: 40px;
+    padding-right: 85px;
+}
+.visit .For-patients .box-vert .image-patient{
+    width: 257px;
+    height: 223px;
+    padding-left: 73px;
+    margin-left: 203px;
+    margin-top: -102px;
+}
+
+.visit .For-patients .box-vert select{
+    width: 154px;
+    height: 36px;
+    border-radius: 5px;
+    border: #00CCB1;
+    padding-left: 25px;
+    padding-right: 10px;
+    margin: 24px;
+}
+.visit .For-doctors .box-blue{
+    background-color:#3D83DF;
+    border-radius: 15px;
+    width: 479px;
+    height: 392px;
+    margin-left: 20px;
+   overflow: hidden;
+   
+}
+.visit .For-doctors .box-blue h6{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 14px;
+    Font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    padding-top: 25px;
+    padding-left: 40px;
+}
+.visit .For-doctors .box-blue p{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 26px;
+    Font-weight: 300;
+    Line-height: 33.8px;
+    color: rgb(255, 255, 255);
+    padding-left: 40px;
+    padding-right: 85px;
+}
+
+.visit .For-doctors .box-blue img{
+    width: 257px;
+    height: 223px;
+    padding-left: 73px;
+    margin-left: 214px;
+    margin-top: -17px;
+    
+}
+
+/*company section*/
+
+.company{
+    display: flex;
+    justify-content: center;
+    margin-top: 61px;
+    margin-bottom: 67px;
+}
+.company .global{
+    width: 290px;
+    flex-wrap: wrap;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 21px;
+    Line-height: 40px;
+    color: rgb(0, 179, 155);
+    padding-right: 130px;
+}
+.company .lekarz{
+   margin-top: 32px;
+}
+.company .lekarz .znany img:hover{
+    filter: none;
+    
+}
+.company .lekarz .znany{
+    display: flex;
+}
+.company .lekarz .znany img{
+    width: 17px;
+    height: 21px;
+    padding-right: 1px;
+    padding-top: 8px;
+    filter: grayscale(1);
+    opacity: 0.6;
+}
+.company .lekarz .znany h1{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 16px;
+    Font-weight: bold;
+    color: rgb(194, 189, 189);
+}
+.company .lekarz .znany h1:hover{
+    color:rgb(0, 179, 155);
+}
+
+
+.company .lekarz .znamy{
+    display: flex;
+}
+.company .lekarz .znamy img{
+    width: 17px;
+    height: 21px;
+    padding-right: 1px;
+    padding-top: 8px;
+    filter: grayscale(1);
+    opacity: 0.6;
+}
+.company .lekarz .znamy img:hover{
+    filter: none;
+    
+}
+.company .lekarz .znamy h1{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 16px;
+    Font-weight: bold;
+    color: rgb(194, 189, 189);
+}
+.company .lekarz .znamy h1:hover{
+    color:rgb(0, 179, 155);
+}
+
+
+
+.company .Doctoralia{
+    display: flex;
+    padding-top: 33px;
+    padding-left: 56px;
+}
+.company .Doctoralia img{
+    width: 17px;
+    height: 21px;
+    padding-right: 1px;
+    padding-top: 8px;
+    filter: grayscale(1);
+    opacity: 0.6;
+}
+.company .Doctoralia img:hover{
+    filter: none;
+    
+}
+.company .Doctoralia h1{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 16px;
+    Font-weight: bold;
+    color: rgb(194, 189, 189);
+}
+.company  .Doctoralia h1:hover{
+    color:rgb(0, 179, 155);
+}
+
+
+.company .miodottore{
+    display: flex;
+    padding-top: 33px;
+    padding-left: 56px;
+}
+.company .miodottore img{
+    width: 17px;
+    height: 21px;
+    padding-right: 1px;
+    padding-top: 8px;
+    filter: grayscale(1);
+    opacity: 0.6;
+}
+.company .miodottore img:hover{
+    filter: none;
+    
+}
+.company .miodottore h1{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 16px;
+    Font-weight: bold;
+    color: rgb(194, 189, 189);
+}
+.company  .miodottore h1:hover{
+    color:rgb(0, 179, 155);
+}
+
+
+.company .doktortakvimi{
+    display: flex;
+    padding-top: 33px;
+    padding-left: 56px;
+}
+.company .doktortakvimi img{
+    width: 17px;
+    height: 21px;
+    padding-right: 1px;
+    padding-top: 8px;
+    filter: grayscale(1);
+    opacity: 0.6;
+    
+}
+.company .doktortakvimi img:hover{
+    filter: none;
+    
+}
+.company .doktortakvimi h1{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 16px;
+    Font-weight: bold;
+    color: rgb(194, 189, 189);
+}
+.company  .doktortakvimi h1:hover{
+    color:rgb(0, 179, 155);
+}
+
+/*healthcare platform*/
+
+.healthcare-platform{
+    background-color: #DAF7F6;
+    height: 528px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+
+
+}
+.healthcare-platform .healthcare-description{
+    display: inline-block;
+    justify-content: center;
+   
+}
+.healthcare-platform .healthcare-description h1{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 34px;
+    Font-weight: 300;
+    Line-height: 44.2px;
+    color: rgb(0, 179, 155);
+    flex-wrap: wrap;
+}
+.healthcare-platform .healthcare-description p{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    Font-weight: 400;
+    Line-height: 24px;
+    color: rgb(116, 116, 116);
+    flex-wrap: wrap;
+}
+.healthcare-platform .healthcare-description img{
+    width: 350px;
+    height: 350px;
+    margin-left: -95px;
+    margin-top: 19px;
+}
+
+
+.healthcare-platform .platform-leaders{
+    display: inline-flex;
+   
+    
+}
+
+.platform-leaders .leader .white-box{
+    width: 167px;
+    height: 251;
+    background-color: white;
+    border-radius: 4px;
+    margin-top: 52px;
+    padding-bottom: 21px;
+}
+
+.platform-leaders .leader .white-box h6
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 24px;
+    Font-weight: 300;
+    Line-height: 31.2px;
+    color: rgb(0, 179, 155);
+    text-align: center;
+    padding-top: -16px;
+    margin-top: -1px;
+}
+.platform-leaders .leader .white-box p
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 10px;
+    Font-weight: 400;
+    Line-height: 16.9px;
+    color: rgb(116, 116, 116);
+    margin-top: -52px;
+    padding: 7px;
+
+}
+.platform-leaders .leader .white-box img
+{
+    width: 29px;
+    height: 31px;
+    padding-top: 16px;
+    padding-left: 76px;
+
+}
+
+
+.platform-leaders .appointments .white-box{
+    width: 167px;
+    height: 251;
+    background-color: white;
+    border-radius: 4px;
+    margin-top: 21px;
+    margin-left: 19px;
+    padding-bottom: 37px;
+}
+.platform-leaders .appointments .white-box p
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 10px;
+    Font-weight: 400;
+    Line-height: 16.9px;
+    color: rgb(116, 116, 116);
+    margin-top: -52px;
+    padding: 7px;
+
+}
+.platform-leaders .appointments .white-box h6
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 24px;
+    Font-weight: 300;
+    Line-height: 31.2px;
+    color: rgb(0, 179, 155);
+    text-align: center;
+    padding-top: -16px;
+    margin-top: -1px;
+
+}
+.platform-leaders .appointments .white-box img
+{
+    width: 29px;
+    height: 31px;
+    padding-top: 16px;
+    padding-left: 66px;
+
+}
+
+
+.plateform-patients .patients .white-box{
+    width: 167px;
+    height: 251;
+    background-color: white;
+    border-radius: 4px;
+    margin-top: 48px;
+    margin-left: -167px;
+    padding-bottom: 59px;
+}
+.plateform-patients .patients .white-box p
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 10px;
+    Font-weight: 400;
+    Line-height: 16.9px;
+    color: rgb(116, 116, 116);
+    margin-top: -52px;
+    padding: 7px;
+
+}
+.plateform-patients .patients .white-box h6
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 19px;
+    Font-weight: 300;
+    Line-height: 31.2px;
+    color: rgb(0, 179, 155);
+    text-align: center;
+    padding-top: -16px;
+    margin-top: -1px;
+
+}
+.plateform-patients .patients .white-box img
+{
+    width: 29px;
+    height: 31px;
+    padding-top: 16px;
+    padding-left: 66px;
+
+}
+
+
+
+.plateform-patients .doctors .white-box{
+    width: 167px;
+    height: 251;
+    background-color: white;
+    border-radius: 4px;
+    margin-top: -231px;
+    margin-left: 19px;
+    padding-bottom: 49px;
+}
+.plateform-patients .doctors .white-box p
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 10px;
+    Font-weight: 400;
+    Line-height: 16.9px;
+    color: rgb(116, 116, 116);
+    margin-top: -52px;
+    padding: 7px;
+
+}
+.plateform-patients .doctors .white-box h6
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 24px;
+    Font-weight: 300;
+    Line-height: 31.2px;
+    color: rgb(0, 179, 155);
+    text-align: center;
+    padding-top: -16px;
+    margin-top: -1px;
+
+}
+.plateform-patients .doctors .white-box img
+{
+    width: 29px;
+    height: 31px;
+    padding-top: 16px;
+    padding-left: 66px;
+
+}
+
+
+/*Section Improve*/
+
+.improve .improve-team h1{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 30px;
+    Font-weight: 300;
+    Line-height: 39px;
+    color: rgb(0, 179, 155);
+    text-align: center;
+
+}
+.improve .team p{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 14px;
+    Font-weight: 400;
+    Line-height: 24px;
+    color: rgb(116, 116, 116);
+    text-align: center;
+    width: 500px;
+    padding-left: 444px;
+
+}
+
+
+/*section galerie des images*//*galerie1 warsaw*/
+
+.galerie-images{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.galerie-images .galerie1{
+    display: flex;
+    justify-content:space-between;
+    
+}
+.galerie-images .galerie1 .warsaw{
+    background-color: rgb(252, 252, 252);
+    border-radius: 10px;
+    overflow: hidden;
+    height: 359px;
+    width: 300px;
+    margin-right: 20px;
+    border:  1px solid rgb(251, 247, 247);
+   
+}
+.galerie-images .galerie1 .warsaw:hover{
+    box-shadow: 2px 0px 20px -4px #888888;
+}
+.galerie-images .galerie1 .warsaw .warsaw-btn{
+    display: flex;
+    justify-content: center;
+}
+.galerie-images .galerie1 .warsaw img{
+    width: 304px;
+    height: 277px;
+    margin-right: 27px;
+   
+}
+
+.galerie-images .galerie1 .warsaw .warsaw-btn .btn-opening{
+    background-color: #3D83DF;
+    border-radius: 5px;
+    width: 91px;
+    height: 13px;
+    padding: 10px;
+    margin-left: 69px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+    opacity: 0.7;
+    font-size: 12px;
+    
+}
+.galerie-images .galerie1 .warsaw .warsaw-btn .btn-opening:hover{
+    cursor: pointer;
+    opacity:1;    
+}
+.galerie-images .galerie1 .warsaw .warsaw-btn  h6{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 18px;
+    Font-weight: 400;
+    Line-height: 30px;
+    color: rgb(116, 116, 116);
+    padding-left: 13px;
+    padding-top: -13px;
+    margin-top: 17px;
+    
+}
+/*section galerie des images*//*galerie1 barcelona*/
+
+
+.galerie-images .galerie1 .barcelona{
+    background-color: rgb(252, 252, 252);
+    border-radius: 10px;
+    overflow: hidden;
+    height: 359px;
+    width: 300px;
+    margin-right: 20px;
+    border:  1px solid rgb(251, 247, 247);
+   
+}
+.galerie-images .galerie1 .barcelona:hover{
+    box-shadow: 2px 0px 20px -4px #888888;
+}
+.galerie-images .galerie1 .barcelona .barcelona-btn{
+    display: flex;
+    justify-content: center;
+}
+.galerie-images .galerie1 .barcelona img{
+    width: 304px;
+    height: 277px;
+    margin-right: 27px;
+   
+}
+
+.galerie-images .galerie1 .barcelona .barcelona-btn .btn-opening{
+    background-color: #3D83DF;
+    border-radius: 5px;
+    width: 91px;
+    height: 13px;
+    padding: 10px;
+    margin-left: 69px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+    opacity: 0.7;
+    font-size: 12px;
+    
+}
+.galerie-images .galerie1 .barcelona .barcelona-btn .btn-opening:hover{
+    cursor: pointer;
+    opacity:1;    
+}
+.galerie-images .galerie1 .barcelona .barcelona-btn  h6{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 18px;
+    Font-weight: 400;
+    Line-height: 30px;
+    color: rgb(116, 116, 116);
+    padding-left: 13px;
+    padding-top: -13px;
+    margin-top: 17px;
+    
+}
+/*section galerie des images*//*galerie1 istanbul*/
+
+
+.galerie-images .galerie1 .Istanbul{
+    background-color: rgb(252, 252, 252);
+    border-radius: 10px;
+    overflow: hidden;
+    height: 359px;
+    width: 300px;
+    margin-right: 20px;
+    border:  1px solid rgb(251, 247, 247);
+   
+}
+.galerie-images .galerie1 .Istanbul:hover{
+    box-shadow: 2px 0px 20px -4px #888888;
+}
+.galerie-images .galerie1 .Istanbul .Istanbul-btn{
+    display: flex;
+    justify-content: center;
+}
+.galerie-images .galerie1 .Istanbul img{
+    width: 304px;
+    height: 277px;
+    margin-right: 27px;
+   
+}
+
+.galerie-images .galerie1 .Istanbul .Istanbul-btn .btn-opening{
+    background-color: #3D83DF;
+    border-radius: 5px;
+    width: 91px;
+    height: 13px;
+    padding: 10px;
+    margin-left: 69px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+    opacity: 0.7;
+    font-size: 12px;
+    
+}
+.galerie-images .galerie1 .Istanbul .Istanbul-btn .btn-opening:hover{
+    cursor: pointer;
+    opacity:1;    
+}
+.galerie-images .galerie1 .Istanbul .Istanbul-btn  h6{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 18px;
+    Font-weight: 400;
+    Line-height: 30px;
+    color: rgb(116, 116, 116);
+    padding-left: 13px;
+    padding-top: -13px;
+    margin-top: 17px;
+    
+}
+
+/*section galerie des images*//*galerie1 rome*/
+
+
+.galerie-images .galerie2{
+    display: flex;
+    justify-content:space-between;
+    
+}
+.galerie-images .galerie2 .Rome{
+    background-color: rgb(252, 252, 252);
+    border-radius: 10px;
+    overflow: hidden;
+    height: 359px;
+    width: 300px;
+    margin-right: 20px;
+    border:  1px solid rgb(251, 247, 247);
+   
+}
+.galerie-images .galerie2 .Rome:hover{
+    box-shadow: 2px 0px 20px -4px #888888;
+}
+.galerie-images .galerie2 .Rome .Rome-btn{
+    display: flex;
+    justify-content: center;
+}
+.galerie-images .galerie2 .Rome img{
+    width: 304px;
+    height: 277px;
+    margin-right: 27px;
+   
+}
+
+.galerie-images .galerie2 .Rome .Rome-btn .btn-opening{
+    background-color: #3D83DF;
+    border-radius: 5px;
+    width: 91px;
+    height: 13px;
+    padding: 10px;
+    margin-left: 69px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+    opacity: 0.7;
+    font-size: 12px;
+    
+}
+.galerie-images .galerie2 .Rome .Rome-btn .btn-opening:hover{
+    cursor: pointer;
+    opacity:1;    
+}
+.galerie-images .galerie2 .Rome .Rome-btn  h6{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 18px;
+    Font-weight: 400;
+    Line-height: 30px;
+    color: rgb(116, 116, 116);
+    padding-left: 13px;
+    padding-top: -13px;
+    margin-top: 17px;
+    
+}
+/*section galerie des images*//*galerie1 mexico-city*/
+
+
+.galerie-images .galerie2{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+}
+.galerie-images .galerie2 .mexico-city{
+    background-color: rgb(252, 252, 252);
+    border-radius: 10px;
+    overflow: hidden;
+    height: 359px;
+    width: 300px;
+    margin-right: 20px;
+    border:  1px solid rgb(251, 247, 247);
+   
+}
+.galerie-images .galerie2 .mexico-city:hover{
+    box-shadow: 2px 0px 20px -4px #888888;
+}
+.galerie-images .galerie2 .mexico-city .mexico-city-btn{
+    display: flex;
+    justify-content: center;
+}
+.galerie-images .galerie2 .mexico-city img{
+    width: 304px;
+    height: 277px;
+    margin-right: 27px;
+   
+}
+
+.galerie-images .galerie2 .mexico-city .mexico-city-btn .btn-opening{
+    background-color: #3D83DF;
+    border-radius: 5px;
+    width: 91px;
+    height: 13px;
+    padding: 10px;
+    margin-left: 69px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+    opacity: 0.7;
+    font-size: 12px;
+    
+}
+.galerie-images .galerie2 .mexico-city .mexico-city-btn .btn-opening:hover{
+    cursor: pointer;
+    opacity:1;    
+}
+.galerie-images .galerie2 .mexico-city .mexico-city-btn  h6{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 18px;
+    Font-weight: 400;
+    Line-height: 30px;
+    color: rgb(116, 116, 116);
+    padding-left: 13px;
+    padding-top: -13px;
+    margin-top: 17px;
+    
+}
+
+/*section galerie des images*//*galerie1 Curitiba*/
+
+
+.galerie-images .galerie2{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+}
+.galerie-images .galerie2 .Curitiba{
+    background-color: rgb(252, 252, 252);
+    border-radius: 10px;
+    overflow: hidden;
+    height: 359px;
+    width: 300px;
+    margin-right: 20px;
+    border:  1px solid rgb(251, 247, 247);
+   
+}
+.galerie-images .galerie2 .Curitiba:hover{
+    box-shadow: 2px 0px 20px -4px #888888;
+}
+.galerie-images .galerie2 .Curitiba .Curitiba-btn{
+    display: flex;
+    justify-content: center;
+}
+.galerie-images .galerie2 .Curitiba img{
+    width: 304px;
+    height: 277px;
+    margin-right: 27px;
+   
+}
+
+.galerie-images .galerie2 .Curitiba .Curitiba-btn .btn-opening{
+    background-color: #3D83DF;
+    border-radius: 5px;
+    width: 91px;
+    height: 13px;
+    padding: 10px;
+    margin-left: 69px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+    opacity: 0.7;
+    font-size: 12px;
+    
+}
+.galerie-images .galerie2 .Curitiba .Curitiba-btn .btn-opening:hover{
+    cursor: pointer;
+    opacity:1;    
+}
+.galerie-images .galerie2 .Curitiba .Curitiba-btn  h6{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 18px;
+    Font-weight: 400;
+    Line-height: 30px;
+    color: rgb(116, 116, 116);
+    padding-left: 13px;
+    padding-top: -13px;
+    margin-top: 17px;
+    
+}
+
+/*footer section*/
+
+footer{
+    height: 112px;
+    border-top: 1px solid rgb(233, 235, 234);
+    margin-top: 91px;
+}
+.leader .country{
+    display: flex;
+    justify-content: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 12px;
+    Font-weight: 400;
+    color: rgb(171, 171, 171);
+    padding-top: 35px;
+}
+.leader .country a{
+    text-decoration: none;
+    color: rgb(61, 131, 223);
+}
+.leader .country a:link{
+    text-decoration: none;
+    color: rgb(61, 131, 223);
+}
+.leader .country a:visited{
+    text-decoration: none;
+    color: rgb(61, 131, 223);
+}
+.leader .country a:active{
+    text-decoration: none;
+    color: rgb(61, 131, 223);
+}
+.leader .cookies {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 12px;
+    Font-weight: 400;
+    Line-height: 15.6px;
+    color: rgb(171, 171, 171);
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.leader .copyright{
+    display: flex;
+    justify-content: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 12px;
+    Font-weight: 400;        
+    color: rgb(171, 171, 171);
+    margin-top: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

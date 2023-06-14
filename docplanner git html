@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DocplannerGroup</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+    
+</body>
+<header>
+    <section class="head-part">
+        <div class="logo">
+            <img src="https://www.docplanner.com/img/logo-default-group-en.svg?v=1">
+
+        </div>
+        <div class="menu-head">
+            
+           <div class="menu-nav">
+                <div class="about-us"><a href="https://www.docplanner.com/about-us">About us</a></div>
+                <div class="career"><a href="https://www.docplanner.com/career">Career</a> </div>
+
+                <div class="departement">
+                   <a class="dropbtn" href="#">Departments</a>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a href="#">Marketing & PR</a></li>
+                            <li><a href="#">Customer Success & Sales</a></li>
+                            <li> <a href="#">IT, Product, Design & UX</a></li>
+                            <li><a href="#">Finance & Administration</a></li>
+                            <li><a href="#">HR & More</a></li>
+                        </ul>
+                </div>
+                    
+             </div>
+            
+        </div>
+    </section>
+
+</header>
+<main>
+    <section>
+        <div class="info-docpalanner">
+
+            <img src="https://www.docplanner.com/img/sygnet.png">
+            <h1>Making the healthcare experience more human</h1>
+            
+            
+        </div>
+        <div class="healthcare-description">
+            <div class="patients">
+                <p>
+                    We want patients to find the perfect doctor and book an appointment in the most easy way.
+                    The patient journey should be enjoyable, and that's why we are always next to them: to help
+                    them find the best possible care. Anytime, anywhere.
+                </p>
+            </div>
+            <div class="doctors">
+                <p>
+                    We also help doctors to better manage their practice and build their online reputation.
+                     With our integrated end-to-end solution, doctors are able not only to improve their online
+                      presence, but also to devote their time to what really matters: their patients.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="visit">
+        <div class="For-patients">
+            <div class="box-vert">
+                <h6>For patients </h6>
+                <p>Find a doctor, book a visit and solve any health-related doubt</p>
+                <select >
+                        <option selected>choose country </option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Brazil">Brazil</option>
+                        <option value="chile">Chile</option>
+                        <option value="Colombia">Colombia</option>
+                        <option value="Ozech">Ozech</option>
+                        <option value="France">France</option>
+                        <option value="italy">italy</option>
+                        <option value="Mexico">Mexico</option>
+                        <option value="peru">Peru</option>
+                        <option value="poland">Poland</option>
+                        <option value="portugal">portugal</option>
+                        <option value="spain">Spain</option>
+                        <option value="uk">uk</option>
+                        <option value="turkey">turkey</option>
+                </select>
+     
+                <img  class="image-patient"src="https://www.docplanner.com/img/screen-marketplace@2x.png">
+
+
+            </div>
+        </div>    
+        <div class="For-doctors">
+                    <div class="box-blue">
+                        <h6>For Doctors </h6>
+                        <p>Save time managing visits and cut no-shows by half</p>
+                        
+                        <img  class="image-doctors"src="https://www.docplanner.com/img/screen-saas@2x.png">
+        
+        
+                    </div>
+        </div>        
+    </section>
+    <section class="company">
+        <div class="global">
+            <h1>We are a global company
+                    with local culture</h1>
+            
+        </div>
+        <div class="lekarz">
+            <div class="znany">
+                <img src="https://www.docplanner.com/img/sygnet.png">                
+                <h1>ZnanyLekarz</h1>
+            </div>
+            <div class="znamy">
+                <img src="https://www.docplanner.com/img/sygnet.png">
+                <h1>ZnamyLekar</h1>
+            </div>
+        </div>    
+        <div class="Doctoralia">
+                <img src="https://www.docplanner.com/img/sygnet.png">
+                <h1>Doctoralia</h1>
+        </div>
+        <div class="miodottore">
+                    <img src="https://www.docplanner.com/img/sygnet.png">
+                    <h1>MioDottore</h1>
+        </div>
+        <div class="doktortakvimi">
+                        <img src="https://www.docplanner.com/img/sygnet.png">
+                        <h1>DoktorTakvimi</h1>
+      
+                            
+        </div>
+    </section>
+    <section class="healthcare-platform">
+        <div class="healthcare-description">
+            <h1>The world's<br>
+                    biggest healthcare platform</h1>
+            <p>We work from 6 offices all over the world, bringing Docplanner Group to life in almost 20 countries</p>        
+            <img src="https://www.docplanner.com/img/logo.png">
+
+        </div>
+        <div class="platform-leaders">
+                <div class="leader">
+                    <div class="white-box">
+                            <img src="https://www.docplanner.com/img/flag.png">
+                            <h6>Leader in 10 countries</h6>
+                            <p>Poland, Turkey, Spain, Italy, Czech Republic, Mexico, Brazil, Colombia, Argentina and Chile</p>
+                    </div>
+            
+                </div>
+                <div class="appointments">
+                    <div class="white-box">
+                            <img src="https://www.docplanner.com/img/visits.png">
+                            <h6>Leader in 10 countries</h6>
+                            <p>Poland, Turkey, Spain, Italy, Czech Republic, Mexico, Brazil, Colombia, Argentina and Chile</p>
+                    </div>
+                    
+                <div>
+        </div>
+        <div class="plateform-patients">
+                <div class="patients">
+                        <div class="white-box">
+                                <img src="https://www.docplanner.com/img/patients.png">
+                                <h6>30 million unique patients</h6>
+                                <p>visit us every month</p>
+                        </div>
+                
+                </div>
+                <div class="doctors">
+                        <div class="white-box">
+                                <img src="https://www.docplanner.com/img/doctors.png">
+                                <h6>2 million active doctors</h6>
+                                <p>trust in our solutions</p>
+                        </div>
+                
+                </div>
+
+        </div>
+    </section>
+    <section class="improve">
+        <div class="improve-team">
+            <h1>Improve the lives of millions.<br>
+            Change yours forever</h1>
+
+        </div>    
+            
+        <div class="team">
+                <p> More than 1000 team mates share our same vision, goals and passion. With offices in Warsaw, 
+                        Barcelona, Istanbul, Rome, Mexico City and Curitiba, our search for great talent never stops.</p>
+        </div>
+
+        
+
+    </section>
+    <section class="galerie-images">
+        <div class="galerie1">
+            <div class="warsaw">    
+             <img src="https://www.docplanner.com/images/warsaw.png">
+             <div class="warsaw-btn">
+                 <h6>Warsaw</h6>
+                 <span class="btn-opening">SEE OPENINGS</span>
+             </div>
+            
+            </div>
+            <div class="barcelona">    
+                <img src="https://www.docplanner.com/images/barcelona.png">
+                <div class="barcelona-btn">
+                    <h6>Barcelona</h6>
+                    <span class="btn-opening">SEE OPENINGS</span>
+                </div>
+               
+            </div>
+            <div class="Istanbul">    
+                <img src="https://www.docplanner.com/images/istanbul.png">
+                <div class="Istanbul-btn">
+                    <h6>Istanbul</h6>
+                    <span class="btn-opening">SEE OPENINGS</span>
+                </div>
+               
+            </div>
+        </div>
+
+
+        <div class="galerie2">
+            <div class="Rome">    
+             <img src="https://www.docplanner.com/images/rome.png">
+             <div class="Rome-btn">
+                 <h6>Rome</h6>
+                 <span class="btn-opening">SEE OPENINGS</span>
+             </div>
+            
+            </div>
+            <div class="mexico-city">    
+                <img src="https://www.docplanner.com/images/mexico-city.png">
+                <div class="mexico-city-btn">
+                    <h6>Mexico City</h6>
+                    <span class="btn-opening">SEE OPENINGS</span>
+                </div>
+               
+            </div>
+            <div class="Curitiba">    
+                <img src="https://www.docplanner.com/images/curitiba.png">
+                <div class="Curitiba-btn">
+                    <h6>Curitiba</h6>
+                    <span class="btn-opening">SEE OPENINGS</span>
+                </div>
+               
+            </div>
+
+
+        </div>
+        
+       
+
+    </section>
+</main>
+<footer>
+    <section class="leader">
+        <div class="country">
+            We are leaders in 10 countries: <a href="#">Poland</a> , <a href="#">Turkey</a>,<a href="#"> Spain</a>, <a href="#">
+                Italy</a>,<a href="#"> Czech Republic</a>, <a href="#">Mexico</a>,<a href="#"> Colombia</a>, <a href="#">Brazil</a>,<a href="#">
+                     Argentina</a> and <a href="#">Chile</a>
+        </div>
+       
+        <div class="cookies">
+            
+                This site uses cookies to deliver services in accordance with this Privacy Policy. You can specify 
+               the conditions for storing or accessing cookies on your browser.
+            
+        </div>
+        <div class="copyright">
+            www.docplanner.com © 2019
+        </div>
+    </section>
+    
+</footer>
+</html>
